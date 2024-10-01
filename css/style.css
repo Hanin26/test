@@ -1,0 +1,354 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.nav{
+    background-color: rgba(49, 46, 46, 0.498);
+}
+.nav .navImg{
+    float: left;
+}
+.nav .navImg img{
+    width: 200px;
+    padding-top: 20px;
+}
+.nav .navLink ul{
+    float: right;
+    padding-top: 15px;
+}
+.nav .navLink ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.nav .navLink ul li a{
+    text-decoration: none;
+    font-family: "Alegreya";
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.92);
+}
+.home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+   background-size: cover;
+   background-position: center;
+    height: 100vh;
+    
+}
+.home .caption{
+    width: 50%;
+    color: white;
+    margin: auto;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 28px;
+}
+.home .caption h1{
+    font-family: "Alegreya Sans";
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.home .caption h2{
+    font-family: "Alegreya";
+    font-size: 76px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-weight: 100;
+}
+.home .caption p{
+    font-family: "Alegreya Sans";
+    font-size: 24px;
+    line-height: 2;
+}
+.home .caption .btn button{
+    padding: 16px 32px;
+    border-radius:5%;
+    border:2px solid white;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: "Alegreya Sans";
+}
+.home .caption a{
+    text-decoration: none;
+    color: white;
+}
+.home .caption .btn1 button{
+    border-radius:5%;
+    border: none;
+    padding: 18px 32px;
+    background-color: rgb(142, 119, 84);
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+}
+.btn1, .btn {
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+.secondSection{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding-top: 100px ;
+}
+.secondSection .image{
+    width: 45% ;
+}
+.secondSection .image img{
+    width: 100%;
+}
+.secondSection .caption2{
+    width: 45%;
+    padding-left: 70px;
+    position: relative;
+       top: -60px;
+}
+.image , .caption2{
+display: inline-block;
+}
+.secondSection .caption2 .text h2{
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 32px;
+}
+.secondSection .caption2 .text p{
+    font-family:"Alegreya Sans";
+    font-size: 17px;
+    color: rgb(144, 136, 136);
+    line-height: 2;
+}
+.secondSection .caption2 .icons{
+    padding:15px 0;
+}
+.secondSection .caption2 .icons .icon{
+    width: 38px;
+    height: 38px;
+    padding: 3px;
+    border: 1px solid rgb(217, 209, 209);
+    border-radius: 100%;
+    vertical-align: middle;
+    margin: 10px 10px;
+}
+.secondSection .caption2 .icons .text2{
+font-family: "Alegreya Sans";
+font-size: 17px;
+font-weight: 400;
+color: rgb(104, 104, 104);
+}
+.thirdSection{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(248, 248, 248);
+
+}
+.thirdSection .image2{
+    width: 45%;
+    padding-left: 50px;
+}
+.thirdSection .image2 img{
+    width: 100%;
+}
+.thirdSection .caption3{
+    width: 45%;
+    line-height: 2;
+    position: relative;
+      top: -155px;
+      color: rgb(48, 48, 48);
+}
+.caption3 , .image2{
+    display: inline-block;
+}
+.thirdSection .caption3 h3{
+    font-family:"Alegreya" ;
+    font-weight: 400;
+    font-size: 32px;
+}
+.thirdSection .caption3 p{
+    font-family:"Alegreya Sans";
+    font-weight: 400;
+    font-size: 17px;
+    color:rgb(104, 104, 104);
+}
+.forthSection{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding-top: 80px;
+}
+.forthSection h2{
+    font-family:"Alegreya" ;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(48, 48, 48);
+}
+.forthSection p{
+    font-family:"Alegreya Sans" ;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color:rgb(104, 104, 104) ;
+}
+.forthSection .items .item p ,.forthSection .items .item h3{
+    text-align: center;
+}
+.forthSection .items .item h3{
+    padding-top: 10px;
+    font-family:"Alegreya" ;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgb(48, 48, 48);
+}
+.forthSection .items .item p{
+    font-family:"Alegreya Sans" ;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(104, 104, 104);
+    line-height: 2;
+}
+.forthSection .items .item{
+    width: 30%;
+    float: left;
+    padding-right: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.forthSection .items .image3{
+    width: 100%;
+}
+.fifthSiction{
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.fifthSiction .map{
+    float: right;
+   /* padding-right: 100px;*/
+}
+.fifthSiction .caption4{
+    width: 40%;
+    float: left;
+}
+.fifthSiction .caption4 h2{
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 32px;
+}
+.fifthSiction .caption4 p{
+    font-family:"Alegreya Sans" ;
+    font-weight: 400;
+    font-size: 17px;
+    color:rgb(104, 104, 104) ;
+    line-height: 2;
+}
+.fifthSiction .caption4 .icons2{
+    padding-left: 0;
+
+}
+.fifthSiction .caption4 .icons2 .text3{
+    font-family:"Alegreya Sans" ;
+    font-weight: 400;
+    font-size: 17px;
+    color:rgb(104, 104, 104) ;
+}
+.fifthSiction .caption4 .icons2 .icon2{
+    width: 31px;
+    height: 31px;
+    padding: 3px;
+    border: 1px solid rgb(217, 209, 209);
+    border-radius: 100%;
+    vertical-align: middle;
+    margin: 10px 10px;
+    background-color: rgb(142, 119, 84);
+}
+.footer{
+    width: 100%;
+    height: 70vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer .capFooter{
+    height: 420px;
+    padding-top: 40px;
+    background-color: #403D38;
+}
+.footer .capFooter .sections{
+    width:25%;
+    float: left;
+    padding-left: 0;
+}
+.footer .capFooter .sections h4{
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.footer .capFooter .sections p, .footer .capFooter .sections .textBar, .footer .capFooter .sections a{
+    color: rgb(150, 150, 150);
+    font-family:"Alegreya Sans" ;
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer .capFooter .sections p{
+    line-height: 2;
+}
+.footer .capFooter .sections a{
+    text-decoration: none;
+}
+.footer .capFooter .sections .list{
+    padding-left: 47px;
+}
+.footer .capFooter .sections .arrow{
+    width: 20px;
+    height: 20px;
+    color: rgb(150, 150, 150);
+}
+.footer .capFooter .sections .sides{
+    width: 32px;
+    height: 32px;
+    margin: 4px;
+    vertical-align:middle;
+}
+.line{
+    border: 1px solid rgba(169, 166, 166, 0.065);
+    margin: 10px 0;
+}
+.footer .footerLogo{
+    height: 270px;
+    padding-top: 60px;
+    background-color: #353330;
+}
+.footer .footerLogo .logo{
+    width: 25%;
+    margin: auto;
+}
+.footer .footerLogo .logo img{
+    width: 350px;
+}
+.footer .footerLogo .logoCap{
+    text-align: center;
+}
+.footer .footerLogo .logoCap p{
+    font-family:"Alegreya Sans" ;
+    font-weight: 400;
+    font-size: 15px; 
+    padding:15px 0;
+    color:rgb(119, 119, 119) ;
+}
+.footer .footerLogo .logoCap .logoImg img{
+    width: 43px;
+    height: 43px;
+    margin: 2px;
+    border-radius: 100%;
+    background-color: #403D38;
+}
